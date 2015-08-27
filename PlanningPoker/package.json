@@ -1,0 +1,27 @@
+{
+  "name": "PlanningPoker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^10.2.1",
+    "lodash": "^3.9.1",
+    "moment": "^2.10.3",
+    "classnames": "^2.1.1",
+    "react": "^0.13.3",
+    "superagent": "^1.2.0",
+    "watchify": "^3.2.1"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "cuid": "^1.2.5",
+    "flux": "^2.0.3",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "postinstall": "npm prune"
+  },
+  "author": "",
+  "license": "ISC"
+}

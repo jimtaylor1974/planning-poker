@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+
+        .bottom-margin {
+            margin-bottom: 20px;
+        }
+
+        /* http://www.cssmatic.com/box-shadow */
+
+        div.card {
+            border: solid black 1px;
+            border-radius: 4px;
+            height: 200px;
+            text-align: center;
+            font-size: 4em;
+            background-color: crimson;
+
+            -webkit-box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+        }
+
+        div.your-card {
+            background-color: greenyellow;
+        }
+
+        .card-icon {
+            position: relative;
+            top: 30%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            color: white;
+        }
+
+        div.overlay {
+            margin: 0 auto;
+            border: 1px solid red;
+            background-color: #FFF;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            height: 100%;
+            z-index: 999;
+        }
+
+        .pointer {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="Main"></div>
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+<script type="text/javascript" src="signalr/hubs"></script>
+<script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+</html>
